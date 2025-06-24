@@ -88,3 +88,44 @@ Requirement Analysis involves several interrelated activities that ensure the ri
 - Ensure traceability between requirements and implementation to facilitate testing and change management.
 
 Each of these activities plays a crucial role in transforming business needs into actionable development tasks that align with the project's goals and user expectations.
+
+## 🛠️ Types of Requirements
+
+In a booking management system like those used by Airbnb, requirements fall into two primary categories: **Functional** and **Non-functional**. Both are essential for building a feature-rich, scalable, and reliable platform.
+
+---
+
+### ⚙️ Functional Requirements
+
+**Definition:**  
+Functional requirements describe the specific behaviors and functions of the system—**what the system should do** to meet user needs.
+
+**Examples for the Booking Management System:**
+
+- **User Registration & Authentication:** Users must be able to register, log in securely, and manage their accounts.
+- **Hotel Listing Management (for Managers):** Managers can create, update, and delete property listings using a dedicated portal.
+- **Search Functionality:** Users can search hotels based on filters like location, date, guest count, and price using ElasticSearch.
+- **Booking Flow:** Users can select a hotel, check availability, confirm a booking, and make payments via an integrated payment gateway.
+- **View Bookings:** Users and hotel managers can view upcoming and past bookings via a booking history service.
+- **Notification System:** Users receive real-time notifications on booking confirmation or cancellation via Kafka-powered messaging services.
+
+---
+
+### 🛡️ Non-functional Requirements
+
+**Definition:**  
+Non-functional requirements define **how the system performs** rather than what it does. They address quality attributes like performance, security, scalability, and reliability.
+
+**Examples for the Booking Management System:**
+
+- **Performance:** The system should return search results within 2 seconds even under high user load (e.g., 1000 concurrent users).
+- **Scalability:** Microservices must be horizontally scalable to support peak-time traffic (e.g., during holiday booking surges).
+- **Security:** All user credentials and transactions must be encrypted (SSL/TLS). Apply rate limiting and prevent SQL injection, XSS, etc.
+- **Reliability:** Ensure 99.9% system uptime with automatic failover mechanisms for all major services.
+- **Data Consistency:** Sync between master-slave databases should occur within milliseconds to ensure consistent booking status across services.
+- **Maintainability:** Code and services must follow a modular architecture to allow independent updates and fixes.
+- **Data Archival:** Older booking records must be archived in Cassandra for efficient long-term access without affecting primary databases.
+
+---
+
+Understanding both types of requirements ensures that the booking platform not only **functions as expected** but also **delivers a fast, secure, and seamless experience** to all users.

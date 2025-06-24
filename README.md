@@ -176,3 +176,40 @@ Below is a use case diagram representing the core interactions in the Booking Ma
 > 📝 \_Diagram created using [Draw.io](https://draw.io) and exported as `alx-booking-uc.png`.
 
 ---
+
+## ✅ Acceptance Criteria
+
+### What is Acceptance Criteria?
+
+**Acceptance Criteria** are predefined conditions that a feature or system must satisfy in order to be accepted by the stakeholders. They define the boundaries of a user story or requirement, clarify expectations, and serve as the basis for testing and validation.
+
+### 🔍 Importance in Requirement Analysis
+
+- **Clarifies Expectations:** Ensures developers and stakeholders are aligned on what a feature must deliver.
+- **Improves Testability:** Provides a clear reference for writing test cases and conducting QA checks.
+- **Defines Done:** Helps the team understand when a task or user story can be marked as complete.
+- **Reduces Ambiguity:** Avoids misinterpretation of requirements by specifying concrete and measurable outcomes.
+- **Supports User-Centered Design:** Keeps the focus on the user’s goals and success criteria.
+
+---
+
+### 🛒 Example: Acceptance Criteria for Checkout Feature
+
+**Feature:** Hotel Booking Checkout
+
+**Acceptance Criteria:**
+
+- ✅ The user must be logged in to access the checkout page.
+- ✅ The system must display selected booking details (property, dates, guests, total cost).
+- ✅ Users must be able to enter or select a saved payment method.
+- ✅ Payment processing must be integrated with a secure third-party provider (e.g., Stripe).
+- ✅ Upon successful payment, the system should:
+  - Create a booking record in the database
+  - Send confirmation email and SMS to the user
+  - Notify the hotel manager via the notification service
+- ✅ If payment fails, the user should receive a meaningful error message and the booking should not be created.
+- ✅ The booking confirmation page should be displayed within 5 seconds of successful payment.
+
+---
+
+Acceptance criteria ensure that software features are **testable, verifiable, and aligned** with real-world business goals. They serve as a contract between stakeholders and developers, reinforcing clarity and quality throughout the development process.

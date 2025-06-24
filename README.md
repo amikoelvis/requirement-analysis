@@ -129,3 +129,50 @@ Non-functional requirements define **how the system performs** rather than what 
 ---
 
 Understanding both types of requirements ensures that the booking platform not only **functions as expected** but also **delivers a fast, secure, and seamless experience** to all users.
+
+## 📊 Use Case Diagrams
+
+### What is a Use Case Diagram?
+
+A **Use Case Diagram** is a type of UML (Unified Modeling Language) diagram that visually represents the **interactions between users (actors)** and the **system (use cases)**. It helps stakeholders understand **who does what** in the system, providing a clear picture of system functionality from a user's perspective.
+
+### 🔍 Benefits of Use Case Diagrams
+
+- ✔️ Provides a high-level view of system functionalities
+- 🧩 Helps identify system actors and their goals
+- 💬 Enhances communication between technical and non-technical stakeholders
+- 📋 Serves as a foundation for creating detailed user stories and test cases
+
+---
+
+### 👥 Actors in the Booking Management System
+
+- **Guest/User:** Can browse listings, book hotels, and manage bookings
+- **Hotel Manager:** Manages hotel listings and views bookings
+- **Admin:** Manages users and monitors the system
+
+---
+
+### 🛠️ Key Use Cases
+
+- Register/Login
+- Search Hotels
+- View Listings
+- Make a Booking
+- Cancel/Modify Booking
+- Manage Hotel Information (Manager)
+- View Booking History
+- Receive Notifications
+- Process Payments
+
+---
+
+### 🖼️ Use Case Diagram
+
+Below is a use case diagram representing the core interactions in the Booking Management System:
+
+![Use Case Diagram for Booking System](./alx-booking-uc.png)
+
+> 📝 \_Diagram created using [Draw.io](https://draw.io) and exported as `alx-booking-uc.png`.
+
+---

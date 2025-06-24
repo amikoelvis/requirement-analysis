@@ -52,3 +52,39 @@ Requirement Analysis is a vital phase in the Software Development Life Cycle (SD
   Ensures that the delivered product meets the specified functional and non-functional requirements, leading to improved customer satisfaction and fewer revisions.
 
 By conducting thorough requirement analysis, development teams can minimize risk, reduce rework, and ensure a smoother path from concept to delivery.
+
+## 🧩 Key Activities in Requirement Analysis
+
+Requirement Analysis involves several interrelated activities that ensure the right system is built in the right way. Each step contributes to developing a complete, accurate, and actionable understanding of what the software must do.
+
+### 1. 📥 Requirement Gathering
+
+- Collect initial information from stakeholders through interviews, surveys, workshops, and observation.
+- Review existing documentation, systems, or business processes.
+- Aim to understand the goals, constraints, and expectations of end users and business owners.
+
+### 2. ✍️ Requirement Elicitation
+
+- Dig deeper into the gathered information to uncover detailed and hidden needs.
+- Use techniques like brainstorming, focus groups, prototyping, and storyboarding.
+- Facilitate collaboration among stakeholders to refine and expand requirements.
+
+### 3. 📚 Requirement Documentation
+
+- Document functional and non-functional requirements in a structured format (e.g., Software Requirements Specification).
+- Write user stories that describe features from the end user’s perspective.
+- Use use case diagrams to visually represent system interactions.
+
+### 4. 📊 Requirement Analysis and Modeling
+
+- Analyze the documented requirements to detect conflicts, gaps, or inconsistencies.
+- Prioritize requirements based on business value, technical feasibility, and stakeholder needs.
+- Create visual models such as data flow diagrams (DFD), entity-relationship diagrams (ERD), or UML diagrams to support analysis.
+
+### 5. ✅ Requirement Validation
+
+- Review the documented requirements with stakeholders to confirm accuracy and completeness.
+- Define acceptance criteria that clearly describe when a requirement is considered "done."
+- Ensure traceability between requirements and implementation to facilitate testing and change management.
+
+Each of these activities plays a crucial role in transforming business needs into actionable development tasks that align with the project's goals and user expectations.
